@@ -19,6 +19,9 @@ class TestRunner:
     #不确定后续是否需要提取
     # all = {}
 
+
+    #失败重试，多加一个装饰器
+    @pytest.mark.flaky(reruns=3, reruns_delay=3)
     @pytest.mark.parametrize("case", data)#“让这个测试函数（test_case）重复执行多次，每次传入 data 里的一个元素，命名为 case。”
     def test_case(self, case, driver_handler):#driver_handler是pytest的fixture参数,从conftest.py来的
 
