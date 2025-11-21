@@ -1,0 +1,11 @@
+INFO     WDM:logger.py:11 ====== WebDriver manager ======
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Get LATEST chromedriver version for google-chrome
+INFO     WDM:logger.py:11 Driver [/Users/swj_795/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-arm64/chromedriver] found in cache
+INFO     webatf:driver_utils.py:31 ✅ 启动 Chrome 浏览器成功
+INFO     root:test_runner.py:44 正在执行步骤: 1 - 关键字: open - 名称: 打开网址
+INFO     root:keywords_utils.py:19 第1步: 打开网址 - 元素(None, None) - 数据(file:///Users/swj_795/Desktop/北梦测/pagetest/drag.html) - 索引(None)
+INFO     root:test_runner.py:44 正在执行步骤: 2 - 关键字: drag_and_drop - 名称: 拖拽
+INFO     root:keywords_utils.py:19 第2步: 拖拽 - 元素(id, div1) - 数据({'by': 'id', 'value': 'div2'}) - 索引(None)
+INFO     root:test_runner.py:44 正在执行步骤: 3 - 关键字: wait - 名称: 等待
+INFO     root:keywords_utils.py:19 第3步: 等待 - 元素(None, None) - 数据(2) - 索引(None)

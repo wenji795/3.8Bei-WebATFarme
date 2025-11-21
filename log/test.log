@@ -1,0 +1,131 @@
+2025-11-21 17:20:12 INFO ====== WebDriver manager ====== 11
+2025-11-21 17:20:12 INFO Get LATEST chromedriver version for google-chrome 11
+2025-11-21 17:20:12 INFO Get LATEST chromedriver version for google-chrome 11
+2025-11-21 17:20:13 INFO Driver [/Users/swj_795/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-arm64/chromedriver] found in cache 11
+2025-11-21 17:20:14 INFO ✅ 启动 Chrome 浏览器成功 31
+2025-11-21 17:20:14 INFO 正在执行步骤: 1 - 关键字: open - 名称: 打开网址 44
+2025-11-21 17:20:14 INFO 第1步: 打开网址 - 元素(None, None) - 数据(file:///Users/swj_795/Desktop/%E5%8C%97%E6%A2%A6%E6%B5%8B/pagetest/%E6%B3%A8%E5%86%8C%E5%AE%9E%E4%BE%8B.html) - 索引(None) 19
+2025-11-21 17:20:14 INFO 正在执行步骤: 2 - 关键字: assert_url - 名称: 断言网址 44
+2025-11-21 17:20:14 INFO 第2步: 断言网址 - 元素(None, None) - 数据(pagetest) - 索引(None) 19
+2025-11-21 17:20:14 INFO ✅ 当前URL: file:///Users/swj_795/Desktop/%E5%8C%97%E6%A2%A6%E6%B5%8B/pagetest/%E6%B3%A8%E5%86%8C%E5%AE%9E%E4%BE%8B.html 包含 预期URL: pagetest 14
+2025-11-21 17:20:14 INFO 正在执行步骤: 3 - 关键字: assert_title - 名称: 断言title 44
+2025-11-21 17:20:14 INFO 第3步: 断言title - 元素(None, None) - 数据(注册A) - 索引(None) 19
+2025-11-21 17:20:14 INFO 正在执行步骤: 4 - 关键字: input - 名称: 断言用户名 44
+2025-11-21 17:20:14 INFO 第4步: 断言用户名 - 元素(xpath, //input) - 数据(admin) - 索引(None) 19
+2025-11-21 17:20:14 INFO 正在执行步骤: 5 - 关键字: assert_element_exist - 名称: 断言元素存在 44
+2025-11-21 17:20:14 INFO 第5步: 断言元素存在 - 元素(xpath, //a[.='新浪']) - 数据(None) - 索引(None) 19
+2025-11-21 17:20:14 INFO ✅ 元素存在 <selenium.webdriver.remote.webelement.WebElement (session="1c287378b3341071c9d7b111cd204774", element="f.9E37F5DE8561CAA2486E130AD2673E59.d.35785111CA73301C645629F4FA5FFAF9.e.22")> 41
+2025-11-21 17:20:14 INFO 正在执行步骤: 6 - 关键字: assert_text - 名称: 断言text 44
+2025-11-21 17:20:14 INFO 第6步: 断言text - 元素(xpath, //a[.='新浪']) - 数据(新浪) - 索引(None) 19
+2025-11-21 17:20:14 INFO 正在执行步骤: 9 - 关键字: shot - 名称: 截图 44
+2025-11-21 17:20:14 INFO 第9步: 截图 - 元素(None, None) - 数据(None) - 索引(None) 19
+2025-11-21 17:20:14 INFO 正在执行步骤: 10 - 关键字: wait - 名称: 等待 44
+2025-11-21 17:20:14 INFO 第10步: 等待 - 元素(None, None) - 数据(5) - 索引(None) 19
+2025-11-21 17:20:19 INFO ====== WebDriver manager ====== 11
+2025-11-21 17:20:20 INFO Get LATEST chromedriver version for google-chrome 11
+2025-11-21 17:20:20 INFO Get LATEST chromedriver version for google-chrome 11
+2025-11-21 17:20:20 INFO Driver [/Users/swj_795/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-arm64/chromedriver] found in cache 11
+2025-11-21 17:20:21 INFO ✅ 启动 Chrome 浏览器成功 31
+2025-11-21 17:20:21 INFO 正在执行步骤: 1 - 关键字: open - 名称: 打开网址 44
+2025-11-21 17:20:21 INFO 第1步: 打开网址 - 元素(None, None) - 数据(file:///Users/swj_795/Desktop/%E5%8C%97%E6%A2%A6%E6%B5%8B/pagetest/%E6%B3%A8%E5%86%8C%E5%AE%9E%E4%BE%8B.html) - 索引(None) 19
+2025-11-21 17:20:21 INFO 正在执行步骤: 2 - 关键字: input - 名称: 输入用户名 44
+2025-11-21 17:20:21 INFO 第2步: 输入用户名 - 元素(xpath, //input) - 数据(admin) - 索引(None) 19
+2025-11-21 17:20:21 INFO 正在执行步骤: 3 - 关键字: input - 名称: 输入密码 44
+2025-11-21 17:20:21 INFO 第3步: 输入密码 - 元素(xpath, //input[@id='passwordA']) - 数据(123456) - 索引(None) 19
+2025-11-21 17:20:21 INFO 正在执行步骤: 4 - 关键字: wait - 名称: 等待 44
+2025-11-21 17:20:21 INFO 第4步: 等待 - 元素(None, None) - 数据(2) - 索引(None) 19
+2025-11-21 17:20:23 INFO 正在执行步骤: 5 - 关键字: clear - 名称: 清空密码 44
+2025-11-21 17:20:23 INFO 第5步: 清空密码 - 元素(xpath, //input[@id='passwordA']) - 数据(None) - 索引(None) 19
+2025-11-21 17:20:23 INFO 正在执行步骤: 6 - 关键字: wait - 名称: 等待 44
+2025-11-21 17:20:23 INFO 第6步: 等待 - 元素(None, None) - 数据(2) - 索引(None) 19
+2025-11-21 17:20:25 INFO 正在执行步骤: 7 - 关键字: click - 名称: 点击注册按钮 44
+2025-11-21 17:20:25 INFO 第7步: 点击注册按钮 - 元素(xpath, //button) - 数据(None) - 索引(None) 19
+2025-11-21 17:20:25 INFO 正在执行步骤: 8 - 关键字: wait - 名称: 等待 44
+2025-11-21 17:20:25 INFO 第8步: 等待 - 元素(None, None) - 数据(2) - 索引(None) 19
+2025-11-21 17:20:27 INFO ====== WebDriver manager ====== 11
+2025-11-21 17:20:27 INFO Get LATEST chromedriver version for google-chrome 11
+2025-11-21 17:20:27 INFO Get LATEST chromedriver version for google-chrome 11
+2025-11-21 17:20:27 INFO Driver [/Users/swj_795/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-arm64/chromedriver] found in cache 11
+2025-11-21 17:20:28 INFO ✅ 启动 Chrome 浏览器成功 31
+2025-11-21 17:20:28 INFO 正在执行步骤: 1 - 关键字: open - 名称: 打开网址 44
+2025-11-21 17:20:28 INFO 第1步: 打开网址 - 元素(None, None) - 数据(file:///Users/swj_795/Desktop/%E5%8C%97%E6%A2%A6%E6%B5%8B/pagetest/%E6%B3%A8%E5%86%8C%E5%AE%9E%E4%BE%8B.html) - 索引(None) 19
+2025-11-21 17:20:28 INFO 正在执行步骤: 2 - 关键字: input - 名称: 输入用户名 44
+2025-11-21 17:20:28 INFO 第2步: 输入用户名 - 元素(xpath, //input) - 数据(admin) - 索引(None) 19
+2025-11-21 17:20:28 INFO 正在执行步骤: 3 - 关键字: wait - 名称: 等待 44
+2025-11-21 17:20:28 INFO 第3步: 等待 - 元素(None, None) - 数据(1) - 索引(None) 19
+2025-11-21 17:20:29 INFO 正在执行步骤: 4 - 关键字: click - 名称: 打开百度 44
+2025-11-21 17:20:29 INFO 第4步: 打开百度 - 元素(xpath, //a[.='打开百度']) - 数据(None) - 索引(None) 19
+2025-11-21 17:20:51 INFO 正在执行步骤: 5 - 关键字: wait - 名称: 等待 44
+2025-11-21 17:20:51 INFO 第5步: 等待 - 元素(None, None) - 数据(1) - 索引(None) 19
+2025-11-21 17:20:52 INFO 正在执行步骤: 6 - 关键字: refresh - 名称: 刷新 44
+2025-11-21 17:20:52 INFO 第6步: 刷新 - 元素(None, None) - 数据(None) - 索引(None) 19
+2025-11-21 17:20:55 INFO 正在执行步骤: 7 - 关键字: wait - 名称: 等待 44
+2025-11-21 17:20:55 INFO 第7步: 等待 - 元素(None, None) - 数据(2) - 索引(None) 19
+2025-11-21 17:20:57 INFO ====== WebDriver manager ====== 11
+2025-11-21 17:20:57 INFO Get LATEST chromedriver version for google-chrome 11
+2025-11-21 17:20:57 INFO Get LATEST chromedriver version for google-chrome 11
+2025-11-21 17:20:57 INFO Driver [/Users/swj_795/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-arm64/chromedriver] found in cache 11
+2025-11-21 17:20:58 INFO ✅ 启动 Chrome 浏览器成功 31
+2025-11-21 17:20:58 INFO 正在执行步骤: 1 - 关键字: open - 名称: 打开网址 44
+2025-11-21 17:20:58 INFO 第1步: 打开网址 - 元素(None, None) - 数据(file:///Users/swj_795/Desktop/%E5%8C%97%E6%A2%A6%E6%B5%8B/pagetest/%E6%B3%A8%E5%86%8C%E5%AE%9E%E4%BE%8B.html) - 索引(None) 19
+2025-11-21 17:20:58 INFO 正在执行步骤: 2 - 关键字: input - 名称: 输入用户名 44
+2025-11-21 17:20:58 INFO 第2步: 输入用户名 - 元素(xpath, //input) - 数据(admin) - 索引(None) 19
+2025-11-21 17:20:58 INFO 正在执行步骤: 3 - 关键字: select_by_text - 名称: 输入文本选上海 44
+2025-11-21 17:20:58 INFO 第3步: 输入文本选上海 - 元素(id, selectA) - 数据(上海) - 索引(None) 19
+2025-11-21 17:20:58 INFO 正在执行步骤: 4 - 关键字: wait - 名称: 等待 44
+2025-11-21 17:20:58 INFO 第4步: 等待 - 元素(None, None) - 数据(1) - 索引(None) 19
+2025-11-21 17:20:59 INFO 正在执行步骤: 5 - 关键字: click - 名称: 点弹出框 44
+2025-11-21 17:20:59 INFO 第5步: 点弹出框 - 元素(id, confirma) - 数据(None) - 索引(None) 19
+2025-11-21 17:20:59 INFO 正在执行步骤: 6 - 关键字: wait - 名称: 等待 44
+2025-11-21 17:20:59 INFO 第6步: 等待 - 元素(None, None) - 数据(1) - 索引(None) 19
+2025-11-21 17:21:00 INFO 正在执行步骤: 7 - 关键字: alert_accept - 名称: 选择接受 44
+2025-11-21 17:21:00 INFO 第7步: 选择接受 - 元素(None, None) - 数据(None) - 索引(None) 19
+2025-11-21 17:21:00 INFO 正在执行步骤: 8 - 关键字: wait - 名称: 等待 44
+2025-11-21 17:21:00 INFO 第8步: 等待 - 元素(None, None) - 数据(1) - 索引(None) 19
+2025-11-21 17:21:01 INFO 正在执行步骤: 9 - 关键字: scroll_to - 名称: 滚动到底 44
+2025-11-21 17:21:01 INFO 第9步: 滚动到底 - 元素(None, None) - 数据({'x': 100, 'y': 1000}) - 索引(None) 19
+2025-11-21 17:21:01 INFO 正在执行步骤: 10 - 关键字: wait - 名称: 等待 44
+2025-11-21 17:21:01 INFO 第10步: 等待 - 元素(None, None) - 数据(2) - 索引(None) 19
+2025-11-21 17:21:03 INFO ====== WebDriver manager ====== 11
+2025-11-21 17:21:04 INFO Get LATEST chromedriver version for google-chrome 11
+2025-11-21 17:21:04 INFO Get LATEST chromedriver version for google-chrome 11
+2025-11-21 17:21:04 INFO Driver [/Users/swj_795/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-arm64/chromedriver] found in cache 11
+2025-11-21 17:21:05 INFO ✅ 启动 Chrome 浏览器成功 31
+2025-11-21 17:21:05 INFO 正在执行步骤: 1 - 关键字: open - 名称: 打开网址 44
+2025-11-21 17:21:05 INFO 第1步: 打开网址 - 元素(None, None) - 数据(file:///Users/swj_795/Desktop/北梦测/pagetest/drag.html) - 索引(None) 19
+2025-11-21 17:21:05 INFO 正在执行步骤: 2 - 关键字: drag_and_drop - 名称: 拖拽 44
+2025-11-21 17:21:05 INFO 第2步: 拖拽 - 元素(id, div1) - 数据({'by': 'id', 'value': 'div2'}) - 索引(None) 19
+2025-11-21 17:21:05 INFO 正在执行步骤: 3 - 关键字: wait - 名称: 等待 44
+2025-11-21 17:21:05 INFO 第3步: 等待 - 元素(None, None) - 数据(2) - 索引(None) 19
+2025-11-21 17:21:07 INFO ====== WebDriver manager ====== 11
+2025-11-21 17:21:07 INFO Get LATEST chromedriver version for google-chrome 11
+2025-11-21 17:21:07 INFO Get LATEST chromedriver version for google-chrome 11
+2025-11-21 17:21:08 INFO Driver [/Users/swj_795/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-arm64/chromedriver] found in cache 11
+2025-11-21 17:21:08 INFO ✅ 启动 Chrome 浏览器成功 31
+2025-11-21 17:21:08 INFO 正在执行步骤: 1 - 关键字: open - 名称: 打开网址 44
+2025-11-21 17:21:08 INFO 第1步: 打开网址 - 元素(None, None) - 数据(file:///Users/swj_795/Desktop/%E5%8C%97%E6%A2%A6%E6%B5%8B/pagetest/%E6%B3%A8%E5%86%8C%E5%AE%9E%E4%BE%8B.html) - 索引(None) 19
+2025-11-21 17:21:08 INFO 正在执行步骤: 2 - 关键字: upload_file - 名称: 文件上传 44
+2025-11-21 17:21:08 INFO 第2步: 文件上传 - 元素(name, upfilea) - 数据(./file/1.jpg) - 索引(None) 19
+2025-11-21 17:21:08 INFO 正在执行步骤: 3 - 关键字: wait - 名称: 等待 44
+2025-11-21 17:21:08 INFO 第3步: 等待 - 元素(None, None) - 数据(2) - 索引(None) 19
+2025-11-21 17:21:11 INFO ====== WebDriver manager ====== 11
+2025-11-21 17:21:11 INFO Get LATEST chromedriver version for google-chrome 11
+2025-11-21 17:21:11 INFO Get LATEST chromedriver version for google-chrome 11
+2025-11-21 17:21:11 INFO Driver [/Users/swj_795/.wdm/drivers/chromedriver/mac64/142.0.7444.175/chromedriver-mac-arm64/chromedriver] found in cache 11
+2025-11-21 17:21:12 INFO ✅ 启动 Chrome 浏览器成功 31
+2025-11-21 17:21:12 INFO 正在执行步骤: 1 - 关键字: open - 名称: 打开网址 44
+2025-11-21 17:21:12 INFO 第1步: 打开网址 - 元素(None, None) - 数据(file:///Users/swj_795/Desktop/%E5%8C%97%E6%A2%A6%E6%B5%8B/pagetest/%E6%B3%A8%E5%86%8C%E5%AE%9E%E4%BE%8B.html) - 索引(None) 19
+2025-11-21 17:21:12 INFO 正在执行步骤: 2 - 关键字: execute_js - 名称: 执行js脚本 44
+2025-11-21 17:21:12 INFO 第2步: 执行js脚本 - 元素(None, None) - 数据(// 设置抖动
+const intervalId = setInterval(() => {
+    document.body.style.transform =
+        Math.random() > 0.5 ? 'rotate(1deg)' : 'rotate(-1deg)';
+}, 100);
+
+// 5 秒后停止抖动并恢复
+setTimeout(() => {
+    clearInterval(intervalId);
+    document.body.style.transform = 'none';
+}, 5000);) - 索引(None) 19
+2025-11-21 17:21:12 INFO 正在执行步骤: 3 - 关键字: wait - 名称: 等待 44
+2025-11-21 17:21:12 INFO 第3步: 等待 - 元素(None, None) - 数据(10) - 索引(None) 19
